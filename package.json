@@ -1,0 +1,21 @@
+{
+  "name": "locator-intel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+  "locator-intel": "./dist/cli.js"
+  },
+  "scripts": {
+    "start": "ts-node cli.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "playwright": "^1.54.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
